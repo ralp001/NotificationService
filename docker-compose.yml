@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: notification-bus
+    ports:
+      - "5672:5672"   # The 'Pipe' the code uses to talk
+      - "15672:15672" # The Dashboard you see in your browser
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest

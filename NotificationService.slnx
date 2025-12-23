@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="Notification.Api/Notification.Api.csproj" />
+  <Project Path="Notification.Application/Notification.Application.csproj" />
+  <Project Path="Notification.Consumer/Notification.Consumer.csproj" />
+  <Project Path="Notification.Contracts/Notification.Contracts.csproj" />
+  <Project Path="Notification.Domain/Notification.Domain.csproj" />
+  <Project Path="Notification.Infrastructure/Notification.Infrastructure.csproj" />
+</Solution>
